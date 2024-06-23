@@ -1,0 +1,33 @@
+
+.breadcrumb{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 60px 170px;
+    text-transform: capitalize;
+    justify-content: flex-start;
+}
+
+.breadcrumb img{
+    height: 5vh;
+    width: 5vh;
+}
+
+@media(max-width:480px){
+    .breadcrumb {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 8px;
+        font-weight: 600;
+        margin: 4px 18px;
+        text-transform: capitalize;
+        justify-content: flex-start;
+    }
+    .breadcrumb img {
+        height: 2vh;
+        width: 2vh;
+    }
+}

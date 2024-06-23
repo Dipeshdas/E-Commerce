@@ -1,0 +1,109 @@
+.newsletter{
+    width: 64%;
+    height: 68vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0px 70px;
+    margin-bottom: 150px;
+    background: linear-gradient(180deg, rgb(0, 217, 255),rgb(250, 250, 249) 60%);
+    gap: 30px;
+}
+
+.newsletter h1{
+    color: blueviolet;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.newsletter p{
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+}
+
+.newsletter div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    width: 675px;
+    height: 54px;
+    border-radius: 80px;
+    border: 1px solid gray;
+}
+
+.newsletter input{
+    width: 500px;
+    margin-left: 30px;
+    border: none;
+    outline: none;
+    /* color: rgba(240, 255, 255, 0.422); */
+    font-family: 'poppins';
+    font-size: 16px;
+    
+}
+
+.newsletter div button{
+    width: 210px;
+    height: 56px;
+    border-radius: 80px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+@media(max-width:480px){
+    .newsletter {
+        width: 64%;
+        height: 29vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        padding: 0px 70px;
+        margin-bottom: 159px;
+        background: linear-gradient(180deg, rgb(0, 217, 255), rgb(250, 250, 249) 60%);
+        gap: 12px;
+    }
+    .newsletter h1 {
+        color: blueviolet;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .newsletter p {
+        color: rgb(0, 0, 0);
+        font-size: 18px;
+    }
+
+    .newsletter div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: white;
+        width: 220px;
+        height: 33px;
+        border-radius: 80px;
+        border: 1px solid gray;
+    }
+    .newsletter input {
+        border: none;
+        font-family: poppins;
+        font-size: 12px;
+        margin-left: 9px;
+        outline: none;
+        width: 135px;
+    }
+    .newsletter div button {
+        width: 65px;
+        height: 33px;
+        border-radius: 80px;
+        background-color: black;
+        color: white;
+        font-size: 11px;
+        cursor: pointer;
+    }
+}

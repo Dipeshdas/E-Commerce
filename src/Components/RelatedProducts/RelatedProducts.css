@@ -1,0 +1,44 @@
+.relatedProducts{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    height: 90vh;
+}
+
+.relatedProducts h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.relatedProducts hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background-color: blue;
+}
+
+.relatedProducts-item{
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+}
+
+@media(max-width:480px){
+    .relatedProducts {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        height: 39vh;
+    }
+    .relatedProducts h1 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .relatedProducts-item {
+        margin-top: 50px;
+        display: flex;
+        gap: 9px;
+    }
+}

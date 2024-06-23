@@ -1,0 +1,130 @@
+.home{
+    margin-top: 2px;
+    height: 100vh;
+    background:linear-gradient(180deg,rgb(250, 162, 177),white 60%);
+    display: flex;
+}
+
+.home-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 180px;
+    line-height: 1.1;
+}
+
+.home-left h2{
+    display: flex;
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.home-left p{
+    display: flex;
+    color: black;
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.home-hand-icon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.home-hand-icon img{
+    height: 60px;
+    width: 60px;
+}
+
+.home-latest-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 310px;
+    height: 70px;
+    border-radius: 70px;
+    margin-top: 30px;
+    background-color: red;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+
+}
+
+.home-latest-btn img{
+    height: 30px;
+    width: 30px;
+    background: red;
+}
+
+.home-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(max-width:480px){
+    
+    .home {
+        height: 28vh;
+        background: linear-gradient(180deg, rgb(250, 162, 177), white 60%);
+        display: flex;
+      }
+      .home-left {
+        flex: 1 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 3px;
+        padding-left: 20px;
+        line-height: 1.1;
+      }
+      .home-left h2 {
+        display: flex;
+        color: black;
+        font-size: 15px;
+        font-weight: 600;
+      }
+      .home-left p {
+        display: flex;
+        color: black;
+        font-size: 26px;
+        font-weight: 700;
+      }
+      .home-hand-icon img {
+        height: 33px;
+        width: 33px;
+      }
+      
+      .home-latest-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        width: 167px;
+        height: 43px;
+        border-radius: 70px;
+        margin-top: 22px;
+        background-color: red;
+        color: white;
+        font-size: 12px;
+        font-weight: 500;
+      }
+      
+      .home-latest-btn img {
+        height: 21px;
+        width: 21px;
+        background: red;
+      }
+      .home-right img{
+        height: 27vh;
+      }
+      
+      
+}

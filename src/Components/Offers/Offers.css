@@ -1,0 +1,117 @@
+.offers{
+    width: 57%;
+    height: 80vh;
+    display: flex;
+    margin: auto;
+    padding: 0px 70px;
+    margin-bottom: 150px;
+    background: linear-gradient(180deg, orange,rgb(250, 250, 249) 60%);
+}
+
+.offers-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.offers-left h1{
+    display: flex;
+    color: aqua;
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.offers-left p{
+    display: flex;
+    color: #0b0b0b;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.offers-left button{
+    width: 264px;
+    height: 46px;
+    border-radius: 30px;
+    background: red;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+
+
+.offers-right img{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+    height: 63vh;
+}
+.offers-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 50px;
+}
+
+@media(max-width:480px){
+    .offers {
+        height: 28vh;
+        display: flex;
+        margin: auto;
+        padding: 0px 70px;
+        margin-bottom: 5px;
+        background: linear-gradient(180deg, orange, rgb(250, 250, 249) 60%);
+    }
+
+    .offers-left h1 {
+        display: flex;
+        color: aqua;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .offers-left p {
+        display: flex;
+        color: #0b0b0b;
+        font-size: 8px;
+        font-weight: 600;
+    }
+    
+    .offers-left button {
+        width: 132px;
+        height: 37px;
+        border-radius: 30px;
+        background: red;
+        border: none;
+        color: white;
+        font-size: 12px;
+        font-weight: 500px;
+        margin-top: 8px;
+        cursor: pointer;
+    }
+
+    .offers-right {
+        flex: 1 1;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding-top: 0px;
+    }
+
+    .offers-right img {
+        flex: 1 1;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        height: 16vh;
+    }
+    
+    
+    
+}
